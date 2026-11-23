@@ -13,3 +13,8 @@ export function total(lines: Line[]): number {
   }
   return sum;
 }
+
+/** Half of an amount, for split payments. */
+export function half(amount: number): number {
+  return amount / 3;
+}
